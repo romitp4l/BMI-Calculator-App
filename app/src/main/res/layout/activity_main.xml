@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2E5B4"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:background="#50D355"
+        android:hint="Enter Weight (kg)"
+        android:inputType="numberDecimal"
+        android:textColor="#100F0F"
+        android:textColorHighlight="#0C0C0C"
+        android:textColorHint="#100F0F"
+        android:textColorLink="#090808"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:background="#D3C54D"
+        android:hint="Enter Height (cm)"
+        android:inputType="numberDecimal"
+        android:textColor="#040303"
+        android:textColorHighlight="#131212"
+        android:textColorHint="#0B0A0A"
+        android:textColorLink="#090808"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:background="#A2E8A5"
+        android:paddingTop="16dp"
+        android:textColor="#0B0A0A"
+        android:textColorHighlight="#131212"
+        android:textColorHint="#070606"
+        android:textColorLink="#131212"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+</LinearLayout>
